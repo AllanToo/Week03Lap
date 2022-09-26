@@ -15,10 +15,14 @@
         <h1>Age Calculator</h1>
         
         <form method ="post" action ="age">
-     
-            Enter Your Current Age: <input type="text" name="ageBefore" value="${ageBefore}" ><br>
-            <input type="submit" value="Age next birthday">
+          Enter Your Current Age: <input type="text" name="ageBefore" value="${ageBefore}" >
+          <br>
+          
+         <input type="submit" value="Age next birthday">
         </form>
+          
         <p>${ageNext}</p>
+        
+          <a href="arithmetic">Arithmetic Calculator</a>
     </body>
 </html>
